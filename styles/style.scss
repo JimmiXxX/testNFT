@@ -31,13 +31,18 @@
 .logo-img {
   height: 55px;
   width: 128px;
-  z-index: 1;
+  z-index: 999;
   object-fit: contain;
 
   @media (width <=980px) {
-
+    height: 36px;
     margin-left: 32px;
+    margin-top: 10px;
     position: fixed;
+  }
+  
+  @media (width <=800px) {
+    margin-top: -10px;
   }
 
 }
