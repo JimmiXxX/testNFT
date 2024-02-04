@@ -325,11 +325,12 @@
   }
 
   @media (width <=850px) {
-    margin-top: 60px;
+    margin-top: 105px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-bottom: 100px;
   }
 
   @media (width <=550px) {
